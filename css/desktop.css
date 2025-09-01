@@ -256,3 +256,24 @@ body {
     width: 100%;
     font-size: 12px;
 }
+
+.desktop .imagek{
+    margin-left: 19vh;
+
+}
+
+/* # */
+
+.body-four{
+    display: flex;
+}
+.controlk img{
+    height: 50vh;
+}
+.body-five{
+    display: flex;
+    gap: 20px;
+}
+.controlq img{
+    height: 48vh;
+}
