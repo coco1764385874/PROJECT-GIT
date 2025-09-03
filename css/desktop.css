@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 700vh;
+    height: 400vh;
     color: #fff;
 }
 
@@ -276,4 +276,16 @@ body {
 }
 .controlq img{
     height: 48vh;
+}
+
+
+.body-images{
+    margin-top: 20px;
+    margin-left: 83vh;
+}
+.pok{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    margin: 20px 0px 30px 90px;
 }
