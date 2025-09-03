@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 700vh;
+    height: 400vh;
     color: #fff;
 }
 
@@ -43,6 +43,14 @@ body {
     font-size: 25px;
 }
 
+<<<<<<< HEAD
+=======
+/*  */
+
+.desktop .imagek img{
+    
+}
+>>>>>>> feature/sokny-1
 
 .body-container {
     color: black;
@@ -251,4 +259,37 @@ body {
     text-align: right;
     width: 100%;
     font-size: 12px;
+}
+
+.desktop .imagek{
+    margin-left: 19vh;
+
+}
+
+/* # */
+
+.body-four{
+    display: flex;
+}
+.controlk img{
+    height: 50vh;
+}
+.body-five{
+    display: flex;
+    gap: 20px;
+}
+.controlq img{
+    height: 48vh;
+}
+
+
+.body-images{
+    margin-top: 20px;
+    margin-left: 83vh;
+}
+.pok{
+    color: black;
+    font-size: 20px;
+    display: flex;
+    margin: 20px 0px 30px 90px;
 }
