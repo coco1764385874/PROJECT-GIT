@@ -199,7 +199,6 @@ u{
 }
 
 .chat-button {
-    width: 30vh;
     background-color: #ff6200;
     color: #fff;
     padding: 10px 20px;
@@ -241,4 +240,3 @@ u{
     width: 100%;
     font-size: 12px;
 }
-
