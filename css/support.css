@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 100vh;
+    /* color: #fff; */
+}
+
+.head-container {
+    background-color: #0a4d4d;
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.head-one img {
+    height: 30px;
+    margin-left: 40px;
+}
+
+.head-two {
+    margin-right: 200px;
+}
+.head-two a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: white;
+    font-size: 16px;
+}
+.head-three {
+    margin-right: 40px;
+}
+.head-three i {
+    color: white;
+    font-size: 25px;
+}
+.main-container{
+    color: black;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: #124d4d0c;
+}
+.main-container-left{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    gap: 10px;
+}
+.main-container-right{
+    flex: 2;
+}
+.left-sub{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Whole FQA */
+.whole-fqa{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 80px 340px 0px 340px;
+}
+.fqa-head{
+    display: flex;
+    justify-content: center;
+}
+.fqa-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.fqa-title{
+    background-color: #124d4d0c;
+    padding: 20px;
+    font-weight: bold;
+}
+.questions{
+    padding: 20px;
+}
+
+/*browse solution*/
+.browse-solution{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 80px 40px 0px 40px;
+}
+.browse-head{
+    display: flex;
+    justify-content: center;
+}
+.browse-categories{
+    display: flex;
+    gap: 40px;
+}
+.browse{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#icon-categories{
+    padding: 0px 40px 0px 80px;
+}
+.browse-slogan{
+    padding: 0px 40px 0px 70px;
+}
+u{
+    font-weight: bold;
+}
+.browse-last{
+    display: flex;
+    margin: 80px 100px 0px 100px;
+    gap: 20px;
+}
+.last-browse-img{
+    flex: 1;
+}
+.join-part{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.techlast-com{
+    padding: 0px 40px 0px 200px;
+}
+.joinus, #join{
+    padding: 0px 40px 0px 120px;
+    font-size: 30px;
+}
+.join-us{
+    margin: 0px 140px 0px 140px;
+    padding: 10px 0px 10px 0px;
+    background-color: orange;
+    border: none;
+    color: white;
+    font-size: large;
+}
+
+/* # */
+
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    margin-top: 80px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+    color: orange;
+}
+
+.newsletter input {
+    padding: 5px;
+    margin-right: 5px;
+    border: none;
+    background: #333;
+    color: #fff;
+}
+
+.newsletter button {
+    padding: 5px 10px;
+    background: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.chat-button {
+    background-color: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons{
+    display: flex;
+
+}
+
+.powered-by {
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.language {
+    text-align: right;
+    width: 100%;
+    font-size: 12px;
+}
+span{
+    font-size: 50px;
+    font-weight: bold;
+}
