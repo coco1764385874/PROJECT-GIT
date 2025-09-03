@@ -88,6 +88,11 @@ body {
     margin-top: 10px;
 }
 
+.desk{
+    background-color: #ff6200;
+    margin: 50vh;
+}
+
 /* body-container */
 
 .body-container {
