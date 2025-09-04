@@ -294,3 +294,27 @@ h2{
     width: 100%;
     font-size: 12px;
 }
+
+/* @media (min-width: 300px) and (max-width:700px) {
+    .head-container{
+        display: flex;
+        gap: 80px;
+    }
+    .head-one{
+        flex: 0.3;
+    }
+    .head-two{
+        flex: 1;
+        display: flex;
+    }
+    .teclast-left{
+        height: 220px;
+    }
+    #one{
+        width: 320px;
+        height: 220px;
+    }
+    .com-establish{
+       margin: 0px 0px 100px 0px;
+    }
+} */
