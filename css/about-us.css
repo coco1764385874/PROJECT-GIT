@@ -6,9 +6,13 @@
 
 body {
     height: 700vh;
-    color: #fff;
+    background-color: rgba(230, 242, 248, 0.205);
+    color: rgba(0, 0, 0, 0.925);
 }
-
+p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
 .head-container {
     background-color: #0a4d4d;
     height: 12vh;
@@ -57,6 +61,236 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 20px;
+    gap: 40px;
     padding-left: 80px;
+    color: white;
+    position: relative;
+}
+
+.main-container ::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.116);
+    z-index: 1;
+}
+
+#teclast{
+    font-weight: bold;
+    /* position: absolute; */
+
+}
+.teclast{
+    z-index: 1;
+}
+.teclast-features{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 80px 80px 0px 80px;
+
+}
+span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.who-teclast{
+    display: flex;
+    justify-content: center;
+}
+.teclast-detail{
+    display: flex;
+    margin: 80px 40px 0px 40px;
+    gap: 40px;
+}
+.teclast-left{
+    display: flex;
+    flex: 3;
+    background-color: rgba(220, 220, 220, 0.507);
+}
+.com-establish{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px;
+}
+h2{
+    margin: 20px 0px 40px 0px;
+}
+.teclast-right{
+    flex: 1;
+}
+.brand-advantages{
+    display: flex;
+    margin: 80px 80px 0px 80px;
+    gap: 40px;
+}
+.brand-left{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.brand-right{
+    flex: 1;
+}
+.quality-assurance{
+    margin: 120px 80px 0px 40px;
+    display: flex;
+    gap: 40px;
+}
+.quality-right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.global-coverage{
+    display: flex;
+    gap: 40px;
+    margin: 120px 40px 0px 80px;
+}
+.global-left{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.why-teclast{
+    margin: 120px 80px 0px 80px ;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.why-teclast-head{
+    display: flex;
+    justify-content: center;
+}
+.why-teclast-box{
+    display: flex;
+    gap: 40px;
+}
+.box{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.teclast-story{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 120px 40px 0px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.future-outlook{
+    display: flex;
+    gap: 40px;
+    margin: 120px 120px 0px 120px;
+}
+.future-right{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+/* # */
+
+.footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    margin-top: 120px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+    margin: 10px;
+}
+
+.footer-column h3 {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footer-column a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+    color: orange;
+}
+
+.newsletter input {
+    padding: 5px;
+    margin-right: 5px;
+    border: none;
+    background: #333;
+    color: #fff;
+}
+
+.newsletter button {
+    padding: 5px 10px;
+    background: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.chat-button {
+    background-color: #ff6200;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 20px;
+    border: 1px solid #ddd;
+    height: 5vh;
+    width: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons{
+    display: flex;
+
+}
+
+.powered-by {
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.language {
+    text-align: right;
+    width: 100%;
+    font-size: 12px;
 }
